@@ -36,5 +36,5 @@ return(list)
 
 ## Criteria for challenge submission
 1. Challenge will have a deadline of 1 week. (Final submissions date: November 3rd 2022)
-2. Challenge should make use of parsed_data.json file provided (To follow the same data structure mentioned in the description above)
+2. Challenge should make use of parsed_data.json file provided. First make sure to extract the parsed_data.7z to get the json file
 3. Challenge should meet challenge guidelines and requirements stated above.
