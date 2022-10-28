@@ -4,7 +4,25 @@ ClickN Challenge for matching algorithm
 
 ## Challenge Description
 
-When dealing with products
+We have a json file that contain products from different sources
+The items have the same field structure as follows:
+
+{
+"_id" : id for the item: type ObjectId
+"store": contains stroe name: type string
+"category": contains ctaegory of said item : type string
+"brand": contains item brand: type string
+"name" : contains product name: type string
+"description": contains description of the product: type string
+"image" : contains a link to the image of the product: type string
+"measurement" : contains the measurement of the product: type string
+"price" : contains the price of the product: type double
+}
+
+We want a function that would take the id of a product and return a list of the other items in the json file that describe the same product
+
+find_item_list(string item_id):
+return(list)
 
 ## Rewards
 1. Cash prize of $100
