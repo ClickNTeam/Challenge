@@ -32,7 +32,7 @@ return(list)
 1. Implementation of the solution. (Preferably in Python but not mandatory)
 2. Documentation on dependencies and how to build your solution (e.g. Makefile, shell scripts, requirements.txt files)
 3. Include a separate descriptive file as a writeup of how you approached solving the challenge. (Preferably as PDF)
-4. Submissions are done via branches based on master branch. Use relevant github account names to easily identify the person.
+4. Submissions are done via branches based on main branch. Use relevant github account names to easily identify the person.
 
 ## Criteria for challenge submission
 1. Challenge will have a deadline of 1 week. (Final submissions date: November 3rd 2022)
