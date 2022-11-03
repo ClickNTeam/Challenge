@@ -23,8 +23,10 @@ The items have the same field structure as follows:
 
 We want a function that would take the id of a product and return a list of the other items in the json file that describe the same product
 
+```
 find_item_list(string item_id):
 return(list)
+```
 
 ## Rewards
 1. Cash prize of $100
