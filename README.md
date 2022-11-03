@@ -9,8 +9,8 @@ The items have the same field structure as follows:
 
 {
 "_id" : id for the item: type ObjectId
-"store": contains stroe name: type string
-"category": contains ctaegory of said item : type string
+"store": contains store name: type string
+"category": contains category of said item : type string
 "brand": contains item brand: type string
 "name" : contains product name: type string
 "description": contains description of the product: type string
