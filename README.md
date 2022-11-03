@@ -9,15 +9,15 @@ The items have the same field structure as follows:
 
 ```
 {
-"_id" : id for the item: type ObjectId
-"store": contains store name: type string
-"category": contains category of said item : type string
-"brand": contains item brand: type string
-"name" : contains product name: type string
-"description": contains description of the product: type string
-"image" : contains a link to the image of the product: type string
-"measurement" : contains the measurement of the product: type string
-"price" : contains the price of the product: type double
+    "_id", // id for the item: type ObjectId
+    "store", // contains store name: type string
+    "category", // contains category of said item : type string
+    "brand", // contains item brand: type string
+    "name", // contains product name: type string
+    "description", // contains description of the product: type string
+    "image", // contains a link to the image of the product: type string
+    "measurement", // contains the measurement of the product: type string
+    "price", // contains the price of the product: type double
 }
 ```
 
