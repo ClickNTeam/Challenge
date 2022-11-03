@@ -7,6 +7,7 @@ ClickN Challenge for matching algorithm
 We have a json file that contain products from different sources
 The items have the same field structure as follows:
 
+```
 {
 "_id" : id for the item: type ObjectId
 "store": contains store name: type string
@@ -18,6 +19,7 @@ The items have the same field structure as follows:
 "measurement" : contains the measurement of the product: type string
 "price" : contains the price of the product: type double
 }
+```
 
 We want a function that would take the id of a product and return a list of the other items in the json file that describe the same product
 
