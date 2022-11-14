@@ -1,0 +1,5 @@
+redis==3.5.3
+redis-om==0.1.0
+redisearch==2.1.1
+regex==2022.9.13
+rejson==0.5.6
