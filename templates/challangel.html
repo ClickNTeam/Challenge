@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            ClickN Challange
+        </title>
+    </head>
+    <body>
+        <form  action="#!" method="POST">
+            <h2>This is by {{ name }}</h2>
+            <p>Input product code</p>
+            <input type="text" name="id">
+            <button type="submit">Confirm</button>
+        </form>
+        <table>
+            {% for element in return_list %}
+                <tr>
+                    <td>
+                        {{element["name"]}}
+                    </td>
+                    <td>
+                        {{element["store"]}}
+                    </td>
+                    <td>
+                        {{element["category"]}}
+                    </td>
+                    <td>
+                        {{element["brand"]}}
+                    </td>
+                    <td>
+                        {{element["image"]}}
+                    </td>
+                    <td>
+                        {{element["measurement"]}}
+                    </td>
+                    <td>
+                        {{element["price"]}}
+                    </td>
+                    <td>
+                        {{element["inStock"]}}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
